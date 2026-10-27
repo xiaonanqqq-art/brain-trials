@@ -1,0 +1,12 @@
+{
+  "name": "brain-trials",
+  "version": "1.0.0",
+  "private": true,
+  "description": "脑力试炼 · 15 关中文益智挑战",
+  "scripts": {
+    "start": "node scripts/serve.cjs",
+    "test": "node --test --test-isolation=none tests/*.test.cjs",
+    "check": "node --check app.js && node --check engine.js && node --check questions.js"
+  },
+  "engines": { "node": ">=22.0.0" }
+}
